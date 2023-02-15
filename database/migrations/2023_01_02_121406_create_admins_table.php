@@ -11,6 +11,7 @@ return new class extends Migration
         Schema::create('admins', function (Blueprint $table) {
             $table->id();
             $table->string('email');
+            $table->string('so_dien_thoai');
             $table->string('ho_va_ten');
             $table->string('password');
             $table->integer('is_block')->default(0);

@@ -49,7 +49,7 @@
                                             @csrf
 											<div class="col-12">
 												<label for="inputEmailAddress" class="form-label">Email Address</label>
-												<input name="email" type="email" class="form-control" id="inputEmailAddress" placeholder="Email Address">
+												<input name="email" type="text" class="form-control" id="inputEmailAddress" placeholder="Email Address">
 											</div>
 											<div class="col-12">
 												<label for="inputChoosePassword" class="form-label">Enter Password</label>

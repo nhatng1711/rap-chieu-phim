@@ -36,7 +36,7 @@
                     </div>
                     <div class="movie-content">
                         <div class="top">
-                            <h5 class="title"><a href="/chi-tiet-phim/{slug}">{{ $value->ten_phim }}</a></h5>
+                            <h5 class="title"><a href="/chi-tiet-phim/{{$value->slug_ten_phim}}-{{$value->id}}">{{ $value->ten_phim }}</a></h5>
                             <span class="date">{{ Carbon\Carbon::parse($value->ngay_khoi_chieu)->format('d/m/Y') }}</span>
                         </div>
                         <div class="bottom">

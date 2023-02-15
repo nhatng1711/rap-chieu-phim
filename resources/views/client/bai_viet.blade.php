@@ -29,17 +29,7 @@
                         </div>
                     </div>
                 @endforeach
-                <div class="pagination-wrap mt-60">
-                    <nav>
-                        <ul>
-                            <li class="active"><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#">Next</a></li>
-                        </ul>
-                    </nav>
-                </div>
+                {{ $baiViet->links() }}
             </div>
             <div class="col-lg-4">
                 <aside class="blog-sidebar">

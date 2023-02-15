@@ -246,7 +246,7 @@ class CustomerController extends Controller
 
     public function viewBaiViet()
     {
-        $baiViet = QuanLyBaiViet::where('is_open', 1)->get();
+        $baiViet = QuanLyBaiViet::where('is_open', 1)->paginate(2);
         return view('client.bai_viet', compact('baiViet'));
     }
 

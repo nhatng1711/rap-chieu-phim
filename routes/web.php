@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/test', [TestController::class, 'test']);
+Route::get('/chart', [TestController::class, 'viewchart']);
 
 Route::get('/e48c2936-ec56-4452-8e01-9ce7f1b38952', [GheBanController::class, 'huyVeAuto']);
 

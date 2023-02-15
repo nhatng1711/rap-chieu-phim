@@ -23,9 +23,10 @@ class AdminSeeder extends Seeder
         DB::table('admins')->insert([
             [
                 'email'             => "admin@master.com",
+                'so_dien_thoai'     => "0123456789",
                 'ho_va_ten'         => "Admin",
                 'password'          => bcrypt(123456),
-                'is_block'          => 0,
+                //'is_block'        => 0,
             ],
         ]);
 
